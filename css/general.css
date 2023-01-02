@@ -1,0 +1,45 @@
+.logo{
+    margin-left: 10%;
+    padding-top: 5%;
+    width: 5%;
+    height: 2%;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav{
+    display: block;
+    margin-top: 7%;
+    margin-right: 10%;
+}
+
+#nav_menu{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    list-style: none;
+    justify-self: center;
+}
+
+#nav_menu a {
+    display: block;
+    padding: 7px;
+    font-size: x-large;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+@font-face {
+    font-family: "Apercu";
+    src: url(../fonts/apercu/Apercu\ Medium-kopi.otf);
+}
+
+p{
+    font-family: "Apercu", cursive;
+}
