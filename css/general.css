@@ -37,7 +37,7 @@ header{
 
 @font-face {
     font-family: "Apercu";
-    src: url(../fonts/apercu/Apercu\ Medium-kopi.otf);
+    src: url("../fonts/apercu_ttf/Apercu-Medium-kopi.ttf");
 }
 
 p{
