@@ -5,9 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/general.css" />
+    <script src="javascript/index.js" defer></script>
     <title>forside</title>
   </head>
-  <body class="body">
+  <body>
     <header>
       <a href="index.html" class="logo"
         ><img src="imgs/logo_2.png" class="logo_size" alt="Logo"
@@ -22,18 +23,40 @@
     </header>
     <main>
       <div id="grid_1-1-1-1">
-        <div class="forside_img">
-          <img src="./imgs/1.png" class="img_size" alt="billede" />
+        <div aria-label="Nyt billed">
+          <div id="carousel" class="carousel1 shiift" data-carousel>
+            <ul data-slides>
+              <li class="slide" data-active>
+                <div class="forside_img">
+                  <img src="./imgs/1.jpg" class="img_size" alt="billede" />
+                </div>
+              </li>
+              <li class="slide">
+                <div class="forside_img">
+                  <img src="./imgs/2.jpg" alt="billede" class="img_size" />
+                </div>
+              </li>
+              <li class="slide">
+                <div class="forside_img">
+                  <img src="./imgs/3.jpg" alt="billede" class="img_size" />
+                </div>
+              </li>
+            </ul>
+          </div>
         </div>
+
         <div class="forside_tekst">
           <h1>Hej!</h1>
           <p>Velkommen til mit portfoliosite</p>
         </div>
       </div>
     </main>
-    <footer>
-      <div>
-        <p>Portfolioeksamen</p>
+    <footer class="footer_p">
+      <div class="footer_info">
+        <h4>PORTFOFLIOEKSAMEN</h4>
+        <p class="fp">Kaowsoy Zeiner</p>
+        <p class="fp">KEA</p>
+        <p class="fp">Copyright© Kaowsoy Zeiner</p>
       </div>
     </footer>
   </body>
