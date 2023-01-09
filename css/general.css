@@ -434,14 +434,6 @@ p{
     }
 
 
-    .nav{
-        display: block;
-    }
-
-    #nav_menu a{
-        font-size: medium;
-    }
-
     .forside_img{
         margin-right: 10%;
     }
@@ -518,6 +510,14 @@ p{
     main{
         display: grid;
         grid-template-columns: 1fr;
+    }
+
+    .nav{
+        display: block;
+    }
+
+    #nav_menu a{
+        font-size: large;
     }
 
     .forside_tekst{
