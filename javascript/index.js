@@ -1,4 +1,4 @@
-const photos = Array.from(document.querySelectorAll('#photo'));
+const photos = Array.from(document.querySelectorAll('.photo'));
 
 const scalingImage = (currentPhoto => {
   currentPhoto.classList.add("scaleImage");
