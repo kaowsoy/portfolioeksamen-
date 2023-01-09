@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/general.css" />
+    <script src="javascript/index.js" defer></script>
     <title>Portfolio</title>
   </head>
   <body>
@@ -23,8 +24,13 @@
     <main>
       <div class="grid_2fr">
         <h1 class="h1">Portfolio</h1>
-        <div class="grid_item3">
-          <img src="./imgs/collage.jpg" alt="collage" width="1200" />
+        <div id="change" class="grid_item3">
+          <img
+            class="scale"
+            src="./imgs/collage.jpg"
+            alt="collage"
+            width="1200"
+          />
         </div>
       </div>
       <h2 class="h2">Tema 2 - Grundlæggende web</h2>
@@ -94,11 +100,11 @@
           </p>
         </div>
         <div class="grid_item2">
-          <img src="./imgs/cirkel.png" alt="diagram" width="400" />
-          <img src="./imgs/diagram.png" alt="diagram" width="400" />
+          <img src="./imgs/cirkel.png" alt="diagram" width="400" id="photo" />
+          <img src="./imgs/diagram.png" alt="diagram" width="400" id="photo" />
         </div>
         <div class="grid_item2">
-          <img src="./imgs/ux1.jpg" alt="wireframe" height="400" />
+          <img src="./imgs/ux1.jpg" alt="wireframe" height="400" id="photo" />
         </div>
         <div class="grid_item2">
           <p class="indhold">
@@ -123,8 +129,8 @@
           </p>
         </div>
         <div class="grid_item2">
-          <img src="./imgs/ux2.jpg" alt="prototype" height="250" />
-          <img src="./imgs/ux3.jpg" alt="prototype2" height="250" />
+          <img src="./imgs/ux2.jpg" alt="prototype" height="250" id="photo" />
+          <img src="./imgs/ux3.jpg" alt="prototype2" height="250" id="photo" />
         </div>
       </div>
       <h2 class="h2">Tema 4 - Grundlæggende animation</h2>
@@ -182,7 +188,7 @@
             sig af: bi-roles, close up af hænder og øjne, samt the rule of
             thirds. I løbet af temaet blev vi også præsenteret for, hvordan man
             embedder en video i HTML-fil med elementet <br />
-            < video >. Jeg har brugt det overstående til at løse min pilotsite
+            video. Jeg har brugt det overstående til at løse min pilotsite
             opgave. For at se min pilotsite
             <a
               href="https://zeinerstudio.dk/pilot_site2/index.html"
@@ -302,5 +308,6 @@
         <p class="fp">Copyright© Kaowsoy Zeiner</p>
       </div>
     </footer>
+    <script src="./javascript/index.js"></script>
   </body>
 </html>
