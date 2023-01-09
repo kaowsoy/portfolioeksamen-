@@ -15,7 +15,10 @@ photos.map((photo) => {
 });
 
 
-let timeinterval = setInterval(nextimages, 4000);
+
+
+
+/* let timeinterval = setInterval(nextimages, 4000);
 
 const buttons = document.querySelectorAll("[data-carousel-button]");
 
@@ -31,5 +34,5 @@ function nextimages() {
   if (newIndex >= slides.children.length) newIndex = 0;
 
   slides.children[newIndex].dataset.active = true;
-  delete activeSlide.dataset.active;
-}
+  delete activeSlide.dataset.active; 
+} */
