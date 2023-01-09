@@ -433,6 +433,15 @@ p{
         height: auto;
     }
 
+    .nav{
+        display: block;
+    }
+
+    #nav_menu a{
+        font-size: small;
+    
+    }
+
 
     .forside_img{
         margin-right: 10%;
@@ -465,6 +474,7 @@ p{
     .grid_1-1-1-1{
         display: grid;
         grid-template-columns: 1fr;
+        
     }
 
     .grid_container{
@@ -488,6 +498,7 @@ p{
         top: 8%;
         left: 0;
         background-size: cover;
+
       } 
 
       .forside_tekst{
@@ -512,13 +523,6 @@ p{
         grid-template-columns: 1fr;
     }
 
-    .nav{
-        display: block;
-    }
-
-    #nav_menu a{
-        font-size: large;
-    }
 
     .forside_tekst{
         margin-top: 5%;
@@ -536,7 +540,7 @@ p{
         display: grid;
         grid-template-columns: 1fr;
         margin-left: 5%;
-        margin-right: 5%;
+
     }
 
     .grid_1-1-1-1{
